@@ -183,6 +183,10 @@ import { UpdateAttachableTool } from "./tools/update-attachable.tool.js";
 import { DeleteAttachableTool } from "./tools/delete-attachable.tool.js";
 import { SearchAttachablesTool } from "./tools/search-attachables.tool.js";
 
+// Multi-account tools
+import { ListQboAccountsTool } from "./tools/list-qbo-accounts.tool.js";
+import { SwitchQboAccountTool } from "./tools/switch-qbo-account.tool.js";
+
 // Financial Report tools
 import { GetBalanceSheetTool } from "./tools/get-balance-sheet.tool.js";
 import { GetProfitAndLossTool } from "./tools/get-profit-and-loss.tool.js";
@@ -406,6 +410,10 @@ const main = async () => {
   RegisterTool(server, UpdateAttachableTool);
   RegisterTool(server, DeleteAttachableTool);
   RegisterTool(server, SearchAttachablesTool);
+
+  // Multi-account management tools
+  RegisterTool(server, ListQboAccountsTool);
+  RegisterTool(server, SwitchQboAccountTool);
 
   // Add financial report tools
   RegisterTool(server, GetBalanceSheetTool);

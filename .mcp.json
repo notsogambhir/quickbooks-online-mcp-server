@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "quickbooks": {
+      "command": "node",
+      "args": ["C:/Users/Hello/Documents/GitHub/quickbooks-online-mcp-server/dist/index.js"],
+      "env": {
+        "QUICKBOOKS_ACCOUNT": "vp-associates"
+      }
+    }
+  }
+}

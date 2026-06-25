@@ -1,0 +1,20 @@
+{
+  "account-slug": {
+    "label": "Company Display Name",
+    "clientId": "your_client_id",
+    "clientSecret": "your_client_secret",
+    "refreshToken": "your_refresh_token",
+    "realmId": "your_realm_id",
+    "environment": "production",
+    "redirectUri": "https://developer.intuit.com/v2/OAuth2Playground/RedirectUrl"
+  },
+  "second-company": {
+    "label": "Second Company Inc.",
+    "clientId": "another_client_id",
+    "clientSecret": "another_client_secret",
+    "refreshToken": "another_refresh_token",
+    "realmId": "another_realm_id",
+    "environment": "production",
+    "redirectUri": "https://developer.intuit.com/v2/OAuth2Playground/RedirectUrl"
+  }
+}
